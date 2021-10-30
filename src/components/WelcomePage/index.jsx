@@ -7,7 +7,7 @@ const WelcomePage = ( { use, setIsLoggedIn } ) => {
 
         <>
             <h2>Welcome {use}!</h2>
-            <button onClick={HandleLogout} >clique aqui</button>
+            <button onClick={HandleLogout} >Sair</button>
         </>
 
     )

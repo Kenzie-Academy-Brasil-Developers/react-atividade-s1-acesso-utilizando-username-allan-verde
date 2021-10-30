@@ -12,6 +12,7 @@ const GetUserComponet = ( { setUser, setIsLoggedIn } ) => {
 
         <form>
             <input type='text'
+            placeholder='Digite seu nome'
             value={userInput} 
             onChange={(event) => setUserInput(event.target.value)}/>
             <button onClick={() => HandleLogin(userInput)}>Acessar com nome</button>
